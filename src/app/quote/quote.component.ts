@@ -13,7 +13,7 @@ export class QuoteComponent implements OnInit {
   new Quote('Failure ', "Anyone who has never made a mistake has never tried anything new.", 'Audrey Helpburn', new Date(2020, 9 - 1, 27),0,0),
   new Quote('Fear', 'Life shrinks or expands in proportion to ones courage', 'Anais Ninpher', new Date(2020, 9 - 1, 27),0,0),
   new Quote('Wisdom', 'A wiseman never knows all,only fools know everything', 'William Shakespear', new Date(2020, 8 - 1, 27),0,0),
-  new Quote('Passion ', 'Passion is the genesis of genius.', 'Oprah Winfrey', new Date(2020, 9 - 1, 27),0,0),
+  new Quote('Passion ', 'People with great passion can make the impossible happen.', 'Oprah Winfrey', new Date(2020, 9 - 1, 27),0,0),
   new Quote('Investment ', 'Never invest in a business you cannot understand.', 'Benjamin Franklin', new Date(2020, 9 - 1, 27),0,0)
 ];
 toggleDetails(index) {
