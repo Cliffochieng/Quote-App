@@ -2,13 +2,14 @@
   font-family: 'Creepster', cursive;
 }
 .container-full {
-  background-image: url("~src/assets/bac2.jpeg");
+  /* background-image: url("~src/assets/bac3.jpeg"); */
   background-size: cover;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   overflow-x: hidden;
+  background-color: black;
 
 }
 .del {
@@ -44,7 +45,7 @@
 .header {
   position: relative;
   font-size: 70px;
-  color: darkgoldenrod;
+  color:red;
   font-family: 'Gravitas One', cursive;
   text-align: center;
 }
