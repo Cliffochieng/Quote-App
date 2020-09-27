@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Quote } from '../quote';
+import { calcPossibleSecurityContexts } from '@angular/compiler/src/template_parser/binding_parser';
 @Component({
   selector: 'app-quote',
   templateUrl: './quote.component.html',
@@ -8,7 +9,7 @@ import { Quote } from '../quote';
 export class QuoteComponent implements OnInit {  
   quotes: Quote[] = [
 
- new Quote('Success', 'Success usually comes to those who are too busy to be looking for it.', 'Henry David Thoreau', new Date(2019, 8 - 1, 23),0,0),
+ new Quote('Success', 'Nothing is impossible the word itself says im possible.', 'Albert Einstein', new Date(2019, 8 - 1, 23),0,0),
   new Quote('Failure ', 'Giving up is the only sure way to fail.', 'Gena Showalter', new Date(2019, 8 - 1, 15),0,0),
   new Quote('Fear', 'Everything you want is on the other side of fear.', 'Jack Canfield', new Date(2019, 8 - 1, 12),0,0),
   new Quote('Wisdom', 'Knowing yourself is the beginning of all wisdom.', 'Aristotle', new Date(2019, 8 - 1, 10),0,0),
