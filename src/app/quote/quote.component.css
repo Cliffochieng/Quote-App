@@ -37,7 +37,7 @@
 }
 .title {
   margin: 8px;
-  color: white;
+  color:#ffe6e6;
   font-family: 'Gravitas One', cursive;
 }
 
@@ -45,7 +45,7 @@
 .header {
   position: relative;
   font-size: 70px;
-  color:red;
+  color:goldenrod;
   font-family: 'Gravitas One', cursive;
   text-align: center;
 }
@@ -53,7 +53,7 @@
   width: 300px;
   border: none;
   margin: 15px 5px 3%;
-  background-color:whitesmoke;
+  background-color:white;
   margin-left:10px;
 
 }
