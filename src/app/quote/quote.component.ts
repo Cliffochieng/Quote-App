@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Quote } from '../quote';
 import { calcPossibleSecurityContexts } from '@angular/compiler/src/template_parser/binding_parser';
+
 @Component({
   selector: 'app-quote',
   templateUrl: './quote.component.html',
