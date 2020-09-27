@@ -10,8 +10,8 @@ export class QuoteComponent implements OnInit {
   quotes: Quote[] = [
 
  new Quote('Success', 'Nothing is impossible the word itself says im possible.', 'Albert Einstein', new Date(2020, 9 - 1, 27),0,0),
-  new Quote('Failure ', "Anyone who has never made a mistake has never tried anything new", 'Audrey Helpburn', new Date(2020, 9 - 1, 27),0,0),
-  new Quote('Fear', 'Everything you want is on the other side of fear.', 'Jack Canfield', new Date(2020, 9 - 1, 27),0,0),
+  new Quote('Failure ', "Anyone who has never made a mistake has never tried anything new.", 'Audrey Helpburn', new Date(2020, 9 - 1, 27),0,0),
+  new Quote('Fear', 'Life shrinks or expands in proportion to ones courage', 'Jack Canfield', new Date(2020, 9 - 1, 27),0,0),
   new Quote('Wisdom', 'Knowing yourself is the beginning of all wisdom.', 'Aristotle', new Date(2020, 8 - 1, 27),0,0),
   new Quote('Passion ', 'Passion is the genesis of genius.', 'Tony Robbins', new Date(2020, 9 - 1, 27),0,0),
   new Quote('Investment ', 'Never invest in a business you cannot understand.', 'Warren Buffett', new Date(2020, 9 - 1, 27),0,0)
