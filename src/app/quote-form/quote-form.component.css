@@ -1,0 +1,11 @@
+*{
+  font-family: 'Creepster', cursive;
+}
+.container-fluid{
+  font-size: 20px;
+  color: darkgoldenrod;
+  font-family: 'Gravitas One', cursive;
+}
+#two{
+  color:darkgoldenrod;
+}
