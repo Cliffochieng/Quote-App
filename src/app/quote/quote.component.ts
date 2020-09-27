@@ -12,7 +12,7 @@ export class QuoteComponent implements OnInit {
  new Quote('Success', 'Nothing is impossible the word itself says im possible.', 'Albert Einstein', new Date(2020, 9 - 1, 27),0,0),
   new Quote('Failure ', "Anyone who has never made a mistake has never tried anything new.", 'Audrey Helpburn', new Date(2020, 9 - 1, 27),0,0),
   new Quote('Fear', 'Life shrinks or expands in proportion to ones courage', 'Anais Ninpher', new Date(2020, 9 - 1, 27),0,0),
-  new Quote('Wisdom', 'A wiseman never knows all,only fools know everything', 'William Shakespear', new Date(2020, 8 - 1, 27),0,0),
+  new Quote('Wisdom', 'A wiseman never knows all,only fools know everything', 'William Shakespear', new Date(2020, 9 - 1, 27),0,0),
   new Quote('Passion ', 'People with great passion can make the impossible happen.', 'Oprah Winfrey', new Date(2020, 9 - 1, 27),0,0),
   new Quote('Investment ', 'An investment in knowledge pays the best interest', 'Benjamin Franklin', new Date(2020, 9 - 1, 27),0,0)
 ];
